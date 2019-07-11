@@ -82,7 +82,7 @@ Example Complex JSON:
     "processActions": [
         {
             "action": "email",
-            "to": "stuart.mason@pfizer.com"
+            "to": "stuart.mason@emailaddress.com"
         }
     ]
 }
