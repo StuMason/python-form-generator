@@ -2,7 +2,28 @@
 1. Post form JSON to URL
 2. Lambda creates HTML from JSON and returns it
 
-Example JSON:
+So posting simple json:
+```
+{
+    "class": "form",
+    "inputs": [
+        {
+            "name": "name",
+            "label": "Name",
+            "type": "text",
+            "classes": "form-input",
+            "id": "form-name"
+        }
+    ]
+}
+```
+
+Would return:
+```
+<form><div><label for="name">Name</label><input class="form-input" id="form-name" name="name"></div></form>
+```
+
+Example Complex JSON:
 ```
 {
     "class": "form",
