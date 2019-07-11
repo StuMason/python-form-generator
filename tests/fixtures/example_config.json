@@ -1,0 +1,61 @@
+{
+    "class": "form",
+    "inputs": [
+        {
+            "name": "name",
+            "label": "Name",
+            "placeholder": "Enter your name",
+            "type": "text",
+            "classes": "form-input",
+            "id": "form-name"
+        },
+        {
+            "name": "email",
+            "label": "Email",
+            "placeholder": "Enter your email",
+            "type": "email",
+            "classes": "form-input",
+            "id": "form-email"
+        },
+        {
+            "name": "country",
+            "label": "Country",
+            "placeholder": "Enter your country",
+            "type": "select",
+            "classes": "form-input",
+            "id": "form-country",
+            "options": [
+                {
+                    "value": "USA",
+                    "name": "The States"
+                },
+                {
+                    "value": "UK",
+                    "name": "United Kingdom"
+                },
+                {
+                    "value": "NE",
+                    "name": "The Netherlands"
+                }
+            ]
+        },
+        {
+            "name": "message",
+            "label": "Message",
+            "placeholder": "Enter Message",
+            "type": "textarea",
+            "classes": "form-textarea",
+            "id": "form-message"
+        }
+    ], 
+    "action": {
+        "url": "default"
+    },
+    "method": "POST",
+    "processActions": [
+        {
+            "action": "email",
+            "to": "stuart.mason@pfizer.com"
+        }
+    ]
+}

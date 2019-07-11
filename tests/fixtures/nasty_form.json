@@ -1,0 +1,12 @@
+{
+    "class": "form",
+    "inputs": [
+        {
+            "name": "name",
+            "label": "<script>something bad</script>",
+            "type": "text",
+            "classes": "form-input",
+            "id": "form-name"
+        }
+    ]
+}
